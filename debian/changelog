@@ -1,4 +1,4 @@
-libbsd (0.1.5-3) UNRELEASED; urgency=low
+libbsd (0.1.5-3) unstable; urgency=low
 
   * Re-enable libbsd-udeb package on all architectures, as rdate-udeb
     will need it.
