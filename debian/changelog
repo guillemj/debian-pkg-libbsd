@@ -1,5 +1,9 @@
-libbsd (0.4.2-2) UNRELEASED; urgency=low
+libbsd (0.5.0-1) UNRELEASED; urgency=low
 
+  * New upstream release.
+    - Implement setproctitle(). (Closes: #614959)
+    - Fix «make distclean» target to not remove distributed files.
+  * Change watch file to also look for xz compressed upstream releases.
   * Fix cross-building support by passing correct --build and --host options
     to configure. Based on patch by Colin Watson <cjwatson@ubuntu.com>.
     (Closes: #665997)
