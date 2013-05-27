@@ -1,3 +1,10 @@
+libbsd (0.5.1-1) unstable; urgency=low
+
+  * New upstream release.
+    - Fix build failures on 32-bit systems due to an error on the test suite.
+
+ -- Guillem Jover <guillem@debian.org>  Mon, 27 May 2013 07:02:08 +0200
+
 libbsd (0.5.0-1) unstable; urgency=low
 
   * New upstream release.
