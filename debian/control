@@ -31,7 +31,7 @@ Description: utility functions from BSD systems - development files
   * closefrom.
   * expand_number, dehumanize_number, humanize_number, strtonum, fmtcheck.
   * errc, verrc, vwarnc, warnc.
-  * fgetln, flopen, fpurge.
+  * fgetln, fparseln, fgetwln, flopen, fpurge.
   * getmode, setmode, strmode,
   * getpeereid.
   * getprogname, setprogname, setproctitle.
@@ -41,7 +41,9 @@ Description: utility functions from BSD systems - development files
   * readpassphrase.
   * reallocf.
   * strlcpy, strlcat.
+  * strnstr.
   * strnvis, strnunvis, strunvis, strunvisx, strvis, strvisx, unvis, vis.
+  * wcslcat, wcslcpy.
  .
  Also included are some queue macro definitions not present on includes
  from glibc.
