@@ -11,6 +11,7 @@ libbsd (0.5.0-1) UNRELEASED; urgency=low
   * Move -e option from postinst's shebang to an explicit set call.
   * Switch to canonical Vcs URLs.
   * Switch source package to xz compression.
+  * Switch to debhelper compatibility level 9.
   * Now using Standards-Version 3.9.4 (no changes needed).
 
  -- Guillem Jover <guillem@debian.org>  Fri, 23 Nov 2012 01:29:55 +0100
