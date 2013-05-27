@@ -1,4 +1,4 @@
-libbsd (0.5.0-1) UNRELEASED; urgency=low
+libbsd (0.5.0-1) unstable; urgency=low
 
   * New upstream release.
     - Implement setproctitle(). (Closes: #614959)
@@ -14,7 +14,7 @@ libbsd (0.5.0-1) UNRELEASED; urgency=low
   * Switch to debhelper compatibility level 9.
   * Now using Standards-Version 3.9.4 (no changes needed).
 
- -- Guillem Jover <guillem@debian.org>  Fri, 23 Nov 2012 01:29:55 +0100
+ -- Guillem Jover <guillem@debian.org>  Mon, 27 May 2013 06:07:08 +0200
 
 libbsd (0.4.2-1) unstable; urgency=low
 
