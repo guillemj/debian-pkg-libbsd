@@ -1,3 +1,12 @@
+libbsd (0.5.2-1) unstable; urgency=medium
+
+  * New upstream release.
+    - Force setproctitle() constructor into the .init_array section.
+    - Fix use after free on setproctitle() constructor (bumped urgency).
+  * Update debian/copyright file.
+
+ -- Guillem Jover <guillem@debian.org>  Sat, 08 Jun 2013 18:55:59 +0200
+
 libbsd (0.5.1-1) unstable; urgency=low
 
   * New upstream release.
