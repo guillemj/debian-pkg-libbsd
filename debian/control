@@ -34,12 +34,13 @@ Description: utility functions from BSD systems - development files
   * fgetln, fparseln, fgetwln, flopen, fpurge.
   * getmode, setmode, strmode,
   * getpeereid.
-  * getprogname, setprogname, setproctitle.
+  * getprogname, setprogname.
   * heapsort, radixsort, mergesort, sradixsort.
   * nlist (ELF and a.out support).
   * pidfile_open, pidfile_write, pidfile_close, pidfile_remove.
   * readpassphrase.
   * reallocf.
+  * setproctitle (initialized via libbsd-ctor or setproctitle_init).
   * strlcpy, strlcat.
   * strnstr.
   * strnvis, strnunvis, strunvis, strunvisx, strvis, strvisx, unvis, vis.
