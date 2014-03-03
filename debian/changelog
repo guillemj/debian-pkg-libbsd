@@ -11,6 +11,8 @@ libbsd (0.6.0-2) UNRELEASED; urgency=low
   * Only restore /usr/include/nlist.h if it's missing, or if it contains
     a libbsd instance of the header. And use the matching header from the
     replaced package, which should now be ABI-compatible. (Closes: #724747)
+  * Remove debian/README.Debian, which contains information provided in the
+    package description.
 
  -- Guillem Jover <guillem@debian.org>  Sun, 02 Mar 2014 06:36:25 +0100
 
