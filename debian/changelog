@@ -1,4 +1,4 @@
-libbsd (0.6.0-2) UNRELEASED; urgency=low
+libbsd (0.6.0-2) unstable; urgency=low
 
   * Take over standalone maintainership.
     <https://lists.debian.org/debian-bsd/2013/10/msg00227.html>.
@@ -14,7 +14,7 @@ libbsd (0.6.0-2) UNRELEASED; urgency=low
   * Remove debian/README.Debian, which contains information provided in the
     package description.
 
- -- Guillem Jover <guillem@debian.org>  Sun, 02 Mar 2014 06:36:25 +0100
+ -- Guillem Jover <guillem@debian.org>  Tue, 04 Mar 2014 05:02:42 +0100
 
 libbsd (0.6.0-1) unstable; urgency=medium
 
