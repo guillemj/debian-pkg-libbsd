@@ -1,4 +1,4 @@
-libbsd (0.7.0-1) UNRELEASED; urgency=low
+libbsd (0.7.0-1) unstable; urgency=low
 
   * New upstream release.
     - Add ELF types for OpenRISC. (Closes: #736759)
@@ -12,7 +12,7 @@ libbsd (0.7.0-1) UNRELEASED; urgency=low
   * Update config.guess and config.sub at build time, via autotools-dev
     debhelper commands. (Closes: #748994)
 
- -- Guillem Jover <guillem@debian.org>  Tue, 29 Jul 2014 03:01:15 +0200
+ -- Guillem Jover <guillem@debian.org>  Tue, 29 Jul 2014 04:01:46 +0200
 
 libbsd (0.6.0-2) unstable; urgency=low
 
