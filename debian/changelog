@@ -1,3 +1,11 @@
+libbsd (0.7.0-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+    - Add ELF types for OpenRISC. (Closes: #736759)
+    - Autoreconf during release adds support for ppc64el. (Closes: #754126)
+
+ -- Guillem Jover <guillem@debian.org>  Tue, 29 Jul 2014 03:01:15 +0200
+
 libbsd (0.6.0-2) unstable; urgency=low
 
   * Take over standalone maintainership.

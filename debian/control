@@ -19,6 +19,8 @@ Description: utility functions from BSD systems - development files
  .
  The currently provided functions are:
  .
+  * _time32_to_time, _time_to_time32, _time64_to_time, _time_to_time64,
+    _time_to_long, _long_to_time, _time_to_int, _int_to_time.
   * MD5Data, MD5End, MD5File, MD5FileChunk, MD5Final, MD5Init, MD5Pad,
     MD5Transform, MD5Update.
   * arc4random, arc4random_addrandom, arc4random_buf, arc4random_stir,
@@ -29,7 +31,8 @@ Description: utility functions from BSD systems - development files
   * closefrom.
   * expand_number, dehumanize_number, humanize_number, strtonum, fmtcheck.
   * errc, verrc, vwarnc, warnc.
-  * fgetln, fparseln, fgetwln, flopen, fpurge.
+  * fgetln, fparseln, fgetwln, flopen, fpurge, funopen.
+  * getbsize.
   * getmode, setmode, strmode,
   * getpeereid.
   * getprogname, setprogname.
@@ -37,8 +40,9 @@ Description: utility functions from BSD systems - development files
   * nlist (ELF and a.out support).
   * pidfile_open, pidfile_write, pidfile_close, pidfile_remove.
   * readpassphrase.
-  * reallocf.
+  * reallocarray, reallocf.
   * setproctitle (initialized via libbsd-ctor or setproctitle_init).
+  * sl_init, sl_add, sl_free, sl_find.
   * strlcpy, strlcat.
   * strnstr.
   * strnvis, strnunvis, strunvis, strunvisx, strvis, strvisx, unvis, vis.

@@ -125,6 +125,12 @@ The rest of the licenses apply to code and/or man pages.
     Some code is derived from software contributed to Berkeley by
     Chris Torek.
 
+    © UNIX System Laboratories, Inc.
+    All or some portions of this file are derived from material licensed
+    to the University of California by American Telephone and Telegraph
+    Co. or Unix System Laboratories, Inc. and are reproduced herein with
+    the permission of UNIX System Laboratories, Inc.
+
     Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following conditions
     are met:
@@ -208,10 +214,12 @@ The rest of the licenses apply to code and/or man pages.
 
     --
 
-    Copyright © 1997-2000, 2002, 2008 The NetBSD Foundation, Inc.
+    Copyright © 1994, 1997-2000, 2002, 2008 The NetBSD Foundation, Inc.
     All rights reserved.
 
     Some code was contributed to The NetBSD Foundation by Allen Briggs.
+
+    Some code was contributed to The NetBSD Foundation by Luke Mewburn.
 
     Some code is derived from software contributed to The NetBSD Foundation
     by Jason R. Thorpe of the Numerical Aerospace Simulation Facility,
@@ -220,6 +228,9 @@ The rest of the licenses apply to code and/or man pages.
     Some code is derived from software contributed to The NetBSD Foundation
     by Julio M. Merino Vidal, developed as part of Google's Summer of Code
     2005 program.
+
+    Some code is derived from software contributed to The NetBSD Foundation
+    by Christos Zoulas.
 
     Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following conditions
@@ -248,6 +259,9 @@ The rest of the licenses apply to code and/or man pages.
     All rights reserved.
 
     Copyright © 2001 Dima Dorfman.
+    All rights reserved.
+
+    Copyright © 2001 FreeBSD Inc.
     All rights reserved.
 
     Copyright © 2002 Thomas Moestl <tmm@FreeBSD.org>
@@ -350,6 +364,8 @@ The rest of the licenses apply to code and/or man pages.
 
     Copyright © 2004 Ted Unangst and Todd Miller
     All rights reserved.
+
+    Copyright © 2008 Otto Moerbeek <otto@drijf.net>
 
     Permission to use, copy, modify, and distribute this software for any
     purpose with or without fee is hereby granted, provided that the above
