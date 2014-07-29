@@ -24,6 +24,7 @@ libdev := libbsd-dev
 
 config.status: configure
 	dh_testdir
+	dh_autotools-dev_updateconfig
 
 	./configure \
 		CPPFLAGS="$(CPPFLAGS)" \
@@ -57,6 +58,7 @@ clean:
 
 	[ ! -f Makefile ] || $(MAKE) distclean
 
+	dh_autotools-dev_restoreconfig
 	dh_clean
 
 install-arch: check-arch

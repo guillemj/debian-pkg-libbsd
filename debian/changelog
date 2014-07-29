@@ -9,6 +9,8 @@ libbsd (0.7.0-1) UNRELEASED; urgency=low
     (Closes: #663085)
   * Mark libbsd-dev as Multi-Arch:same. (Closes: #755480)
     Thanks to Dima Kogan <dima@secretsauce.net>.
+  * Update config.guess and config.sub at build time, via autotools-dev
+    debhelper commands. (Closes: #748994)
 
  -- Guillem Jover <guillem@debian.org>  Tue, 29 Jul 2014 03:01:15 +0200
 
