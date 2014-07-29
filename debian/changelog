@@ -7,6 +7,8 @@ libbsd (0.7.0-1) UNRELEASED; urgency=low
     libbsd0-udeb, to make it easier to know why the package is installed.
     Based on suggestions by Jonathan Nieder <jrnieder@gmail.com>.
     (Closes: #663085)
+  * Mark libbsd-dev as Multi-Arch:same. (Closes: #755480)
+    Thanks to Dima Kogan <dima@secretsauce.net>.
 
  -- Guillem Jover <guillem@debian.org>  Tue, 29 Jul 2014 03:01:15 +0200
 

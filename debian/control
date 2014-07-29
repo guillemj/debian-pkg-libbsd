@@ -11,6 +11,7 @@ Homepage: http://libbsd.freedesktop.org/
 Package: libbsd-dev
 Section: libdevel
 Architecture: any
+Multi-Arch: same
 Depends: libbsd0 (= ${binary:Version}), ${misc:Depends}
 Replaces: libfreebsd-dev (<< 0.0-8)
 Description: utility functions from BSD systems - development files
