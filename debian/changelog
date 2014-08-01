@@ -1,3 +1,10 @@
+libbsd (0.7.0-2) UNRELEASED; urgency=low
+
+  * Fix typo in package descriptions. (Closes: #756596)
+    Thanks to Ivan Masár <helix84@centrum.sk>.
+
+ -- Guillem Jover <guillem@debian.org>  Fri, 01 Aug 2014 22:00:38 +0200
+
 libbsd (0.7.0-1) unstable; urgency=low
 
   * New upstream release.

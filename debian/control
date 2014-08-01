@@ -63,7 +63,7 @@ Description: utility functions from BSD systems - shared library
  available on BSD systems but not on others like GNU systems.
  .
  For a detailed list of the provided functions, please see the libbsd-dev
- packag description.
+ package description.
 
 Package: libbsd0-udeb
 Package-Type: udeb
@@ -75,7 +75,7 @@ Description: utility functions from BSD systems - shared library
  available on BSD systems but not on others like GNU systems.
  .
  For a detailed list of the provided functions, please see the libbsd-dev
- packag description.
+ package description.
 
 Package: libbsd0-dbg
 Section: debug
@@ -88,4 +88,4 @@ Description: utility functions from BSD systems - debugging symbols
  available on BSD systems but not on others like GNU systems.
  .
  For a detailed list of the provided functions, please see the libbsd-dev
- packag description.
+ package description.
