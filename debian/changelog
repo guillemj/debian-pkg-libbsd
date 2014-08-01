@@ -4,6 +4,7 @@ libbsd (0.7.0-2) UNRELEASED; urgency=low
     Thanks to Ivan Masár <helix84@centrum.sk>.
   * Move dh_install before any other dh_install* command in the binary-arch
     target in debian/rules.
+  * Call dh_installman in debian/rules.
 
  -- Guillem Jover <guillem@debian.org>  Fri, 01 Aug 2014 22:00:38 +0200
 
