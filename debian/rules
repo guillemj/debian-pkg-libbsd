@@ -82,6 +82,9 @@ binary-arch: install-arch
 	dh_installchangelogs ChangeLog
 	dh_installdocs
 	dh_installman
+	# XXX: Resolve file conflict with libfuntools-dev, should be upstream.
+	mv $(D)/$(libdev)/usr/share/man/man3/funopen.3 \
+	   $(D)/$(libdev)/usr/share/man/man3/funopen.3bsd
 	dh_installexamples
 	dh_link
 	dh_strip --dbg-package=$(libdbg)
