@@ -76,10 +76,10 @@ binary-indep:
 binary-arch: install-arch
 	dh_testdir
 	dh_testroot
+	dh_install
 	dh_installchangelogs ChangeLog
 	dh_installdocs
 	dh_installexamples
-	dh_install
 	dh_link
 	dh_strip --dbg-package=$(libdbg)
 	dh_compress
