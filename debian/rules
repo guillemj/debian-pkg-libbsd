@@ -22,6 +22,8 @@ libdbg := $(lib)-dbg
 libudeb := $(lib)-udeb
 libdev := libbsd-dev
 
+D := $(CURDIR)/debian
+
 config.status: configure
 	dh_testdir
 	dh_autotools-dev_updateconfig
@@ -67,7 +69,7 @@ install-arch: check-arch
 	dh_prep
 	dh_installdirs
 
-	$(MAKE) install DESTDIR=$(CURDIR)/debian/tmp \
+	$(MAKE) install DESTDIR=$(D)/tmp \
 	                runtimelibdir=/lib/$(DEB_HOST_MULTIARCH)
 
 binary-indep:
