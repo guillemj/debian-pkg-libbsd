@@ -1,3 +1,9 @@
+libbsd (0.7.0-3) UNRELEASED; urgency=low
+
+  * Switch Vcs-Browser to a cgit URL.
+
+ -- Guillem Jover <guillem@debian.org>  Sat, 02 May 2015 06:29:23 +0200
+
 libbsd (0.7.0-2) unstable; urgency=high
 
   * Fix typo in package descriptions. (Closes: #756596)
