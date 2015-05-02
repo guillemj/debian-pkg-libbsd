@@ -1,6 +1,7 @@
 libbsd (0.7.0-3) UNRELEASED; urgency=low
 
   * Switch Vcs-Browser to a cgit URL.
+  * Now using Standards-Version 3.9.6 (no changes needed).
 
  -- Guillem Jover <guillem@debian.org>  Sat, 02 May 2015 06:29:23 +0200
 
