@@ -1,9 +1,19 @@
-libbsd (0.7.0-3) UNRELEASED; urgency=low
+libbsd (0.8.0-1) unstable; urgency=medium
 
+  * New upstream release.
+    - Add new man page for reallocarray(3).
+    - Rename funopen.3 manpage to funopen.3bsd.
+    - Add __DECONST, __DEVOLATILE, __DEQUALIFY, __offsetof, __rangeof and
+      __containerof to sys/cdefs.h.
+    - Sync sys/queue.h from FreeBSD.
+    - Add compile and link-time deprecation warnings for fgetln().
+    - Add explicit_bzero() function from OpenBSD.
+    - Fix arc4random prototypes from uchar to unsigned char. (Closes: #719640)
+    - Update arc4random to use ChaCha20. (Closes: #747671)
   * Switch Vcs-Browser to a cgit URL.
   * Now using Standards-Version 3.9.6 (no changes needed).
 
- -- Guillem Jover <guillem@debian.org>  Sat, 02 May 2015 06:29:23 +0200
+ -- Guillem Jover <guillem@debian.org>  Mon, 30 Nov 2015 23:34:00 +0100
 
 libbsd (0.7.0-2) unstable; urgency=high
 

@@ -1,0 +1,51 @@
+---
+ src/getentropy_aix.c   |    2 +-
+ src/getentropy_hpux.c  |    2 +-
+ src/getentropy_linux.c |    2 +-
+ src/hash/sha512.h      |    2 ++
+ 4 files changed, 5 insertions(+), 3 deletions(-)
+
+--- a/src/getentropy_aix.c
++++ b/src/getentropy_aix.c
+@@ -39,7 +39,7 @@
+ #include <string.h>
+ #include <termios.h>
+ 
+-#include <openssl/sha.h>
++#include "hash/sha512.h"
+ 
+ #include <libperfstat.h>
+ 
+--- a/src/getentropy_hpux.c
++++ b/src/getentropy_hpux.c
+@@ -41,7 +41,7 @@
+ #include <errno.h>
+ #include <unistd.h>
+ #include <time.h>
+-#include <openssl/sha.h>
++#include "hash/sha512.h"
+ 
+ #include <sys/vfs.h>
+ 
+--- a/src/getentropy_linux.c
++++ b/src/getentropy_linux.c
+@@ -47,7 +47,7 @@
+ #include <errno.h>
+ #include <unistd.h>
+ #include <time.h>
+-#include <openssl/sha.h>
++#include "hash/sha512.h"
+ 
+ #include <linux/types.h>
+ #include <linux/random.h>
+--- a/src/hash/sha512.h
++++ b/src/hash/sha512.h
+@@ -31,6 +31,8 @@
+ 
+ #include <sys/types.h>
+ 
++#define SHA512_DIGEST_LENGTH		64
++
+ typedef struct SHA512Context {
+ 	uint64_t state[8];
+ 	uint64_t count[2];
