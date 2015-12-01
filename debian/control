@@ -4,8 +4,9 @@ Section: libs
 Maintainer: Guillem Jover <guillem@debian.org>
 Vcs-Browser: http://git.hadrons.org/cgit/debian/pkgs/libbsd.git
 Vcs-Git: git://git.hadrons.org/git/debian/pkgs/libbsd.git
-Build-Depends: dpkg-dev (>= 1.17.14), debhelper (>= 9.20141010),
- autotools-dev, libtestu01-0-dev <!nocheck>
+Build-Depends: dpkg-dev (>= 1.15.7), debhelper (>= 9), autotools-dev
+# Consider readding the following once and if it moves out of non-free.
+# libtestu01-0-dev <!nocheck>
 Standards-Version: 3.9.6
 Homepage: http://libbsd.freedesktop.org/
 

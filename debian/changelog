@@ -1,3 +1,10 @@
+libbsd (0.8.0-2) UNRELEASED; urgency=medium
+
+  * Revert addition of libtestu01-0-dev into Build-Depends as it is only
+    available in the non-free area of the archive for now.
+
+ -- Guillem Jover <guillem@debian.org>  Tue, 01 Dec 2015 10:57:38 +0100
+
 libbsd (0.8.0-1) unstable; urgency=medium
 
   * New upstream release.
@@ -12,6 +19,7 @@ libbsd (0.8.0-1) unstable; urgency=medium
     - Update arc4random to use ChaCha20. (Closes: #747671)
   * Switch Vcs-Browser to a cgit URL.
   * Now using Standards-Version 3.9.6 (no changes needed).
+  * Add libtestu01-0-dev to Build-Depends to test arc4random implementation.
 
  -- Guillem Jover <guillem@debian.org>  Mon, 30 Nov 2015 23:34:00 +0100
 
