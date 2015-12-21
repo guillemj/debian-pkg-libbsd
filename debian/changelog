@@ -1,6 +1,7 @@
 libbsd (0.8.1-2) UNRELEASED; urgency=medium
 
   * Switch debug package to an automatic dbgsym package.
+  * Output the test suite log on errors.
 
  -- Guillem Jover <guillem@debian.org>  Mon, 21 Dec 2015 02:43:22 +0100
 

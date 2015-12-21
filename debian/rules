@@ -51,7 +51,7 @@ check-arch: build-arch
 	dh_testdir
 
 ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
-	$(MAKE) check
+	$(MAKE) VERBOSE=1 check
 endif
 
 clean:
