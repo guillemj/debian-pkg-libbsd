@@ -4,6 +4,7 @@ libbsd (0.8.3-1) UNRELEASED; urgency=medium
     - Fix a memory leak.
     - Various portability fixes.
     - Improve test suite.
+  * Switch Homepage and debian/watch URLs from http:// to https://.
 
  -- Guillem Jover <guillem@debian.org>  Sat, 23 Apr 2016 10:56:23 +0200
 
