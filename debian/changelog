@@ -1,3 +1,22 @@
+libbsd (0.8.4-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+    - Add support for TileGX. Closes: #847560
+    - Add support for RISC-V.
+    - Gracefully handle lack of system <sys/cdefs.h>. Closes: #810589
+    - Do not provide funopen() on musl.
+    - Do not use legacy BSD u_* types.
+    - Move all man pages to section 3bsd.
+    - Add missing man page aliases.
+    - Add missing man pages for byteorder(3), errc(3) and fpurge(3).
+    - Add new libbsd(7) library overview man page.
+    - Improve test suite.
+    - Remove a.out support from nlist(). Closes: #818246
+    - Fix broken mmap() usage in nlist() by switching to pread().
+    - Add <sys/time.h> for some of its macros.
+
+ -- Guillem Jover <guillem@debian.org>  Mon, 19 Jun 2017 03:38:59 +0200
+
 libbsd (0.8.3-1) unstable; urgency=medium
 
   * New upstream release.

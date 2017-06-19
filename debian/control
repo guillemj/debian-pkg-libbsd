@@ -24,6 +24,7 @@ Description: utility functions from BSD systems - development files
  .
   * _time32_to_time, _time_to_time32, _time64_to_time, _time_to_time64,
     _time_to_long, _long_to_time, _time_to_int, _int_to_time.
+  * TIMEVAL_TO_TIMESPEC, TIMESPEC_TO_TIMEVAL.
   * MD5Data, MD5End, MD5File, MD5FileChunk, MD5Final, MD5Init, MD5Pad,
     MD5Transform, MD5Update.
   * arc4random, arc4random_addrandom, arc4random_buf, arc4random_stir,
@@ -31,6 +32,8 @@ Description: utility functions from BSD systems - development files
   * bsd_getopt.
   * be16dec, be32dec, be64dec, le16dec, le32dec, le64dec.
   * be16enc, be32enc, be64enc, le16enc, le32enc, le64enc.
+  * bit_alloc, bit_decl, bit_clear, bit_ffc, bit_ffs, bit_nclear, bit_nset,
+    bit_set, bitstr_size, bit_test.
   * closefrom.
   * expand_number, dehumanize_number, humanize_number, strtonum, fmtcheck.
   * explicit_bzero.
@@ -50,6 +53,8 @@ Description: utility functions from BSD systems - development files
   * strlcpy, strlcat.
   * strnstr.
   * strnvis, strnunvis, strunvis, strunvisx, strvis, strvisx, unvis, vis.
+  * timeradd, timersub, timerclear, timerisset, timercmp.
+  * timespecadd, timespecsub, timespecclear, timespecisset, timespeccmp.
   * wcslcat, wcslcpy.
  .
  Also included are some queue macro definitions not present on includes
