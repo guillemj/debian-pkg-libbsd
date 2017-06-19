@@ -15,6 +15,7 @@ libbsd (0.8.4-1) UNRELEASED; urgency=medium
     - Fix broken mmap() usage in nlist() by switching to pread().
     - Add <sys/time.h> for some of its macros.
   * Switch to debhelper compatibility level 10.
+  * Now using Standards-Version 4.0.0 (no changes needed).
 
  -- Guillem Jover <guillem@debian.org>  Mon, 19 Jun 2017 03:38:59 +0200
 

@@ -10,7 +10,7 @@ Build-Depends:
  autotools-dev,
 # Consider readding the following once and if it moves out of non-free.
 # libtestu01-0-dev <!nocheck>,
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Homepage: https://libbsd.freedesktop.org/
 
 Package: libbsd-dev
