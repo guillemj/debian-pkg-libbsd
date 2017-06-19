@@ -1,4 +1,4 @@
-libbsd (0.8.4-1) UNRELEASED; urgency=medium
+libbsd (0.8.4-1) unstable; urgency=medium
 
   * New upstream release.
     - Add support for TileGX. Closes: #847560
@@ -17,7 +17,7 @@ libbsd (0.8.4-1) UNRELEASED; urgency=medium
   * Switch to debhelper compatibility level 10.
   * Now using Standards-Version 4.0.0 (no changes needed).
 
- -- Guillem Jover <guillem@debian.org>  Mon, 19 Jun 2017 03:38:59 +0200
+ -- Guillem Jover <guillem@debian.org>  Mon, 19 Jun 2017 04:30:28 +0200
 
 libbsd (0.8.3-1) unstable; urgency=medium
 
