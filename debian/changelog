@@ -1,4 +1,4 @@
-libbsd (0.8.5-1) UNRELEASED; urgency=medium
+libbsd (0.8.5-1) unstable; urgency=medium
 
   * New upstream release.
     - Handle libtool executable names in getprogname() unit test.
@@ -7,7 +7,7 @@ libbsd (0.8.5-1) UNRELEASED; urgency=medium
       Thanks to James Cowgill <jcowgill@debian.org>. Closes: #865091
     - Ship and install libbsd(7).
 
- -- Guillem Jover <guillem@debian.org>  Sat, 24 Jun 2017 16:56:53 +0200
+ -- Guillem Jover <guillem@debian.org>  Sat, 24 Jun 2017 17:01:03 +0200
 
 libbsd (0.8.4-1) unstable; urgency=medium
 
