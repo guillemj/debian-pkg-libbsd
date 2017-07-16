@@ -1,11 +1,11 @@
-libbsd (0.8.6-1) UNRELEASED; urgency=medium
+libbsd (0.8.6-1) unstable; urgency=medium
 
   * New upstream release.
     - Fix nlist() unit tests to work on IA64 and PowerPC 64-bit ELFv1.
     - Fix setproctitle() to work on systems with non-contiguous
       argv + envp memory areas, such as current GNU/Hurd.
 
- -- Guillem Jover <guillem@debian.org>  Mon, 17 Jul 2017 01:14:16 +0200
+ -- Guillem Jover <guillem@debian.org>  Mon, 17 Jul 2017 01:19:18 +0200
 
 libbsd (0.8.5-1) unstable; urgency=medium
 
