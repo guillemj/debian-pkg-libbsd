@@ -17,8 +17,11 @@ Package: libbsd-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libbsd0 (= ${binary:Version}), ${misc:Depends}
-Replaces: libfreebsd-dev (<< 0.0-8)
+Depends:
+ libbsd0 (= ${binary:Version}),
+ ${misc:Depends},
+Replaces:
+ libfreebsd-dev (<< 0.0-8),
 Description: utility functions from BSD systems - development files
  This library provides some functions commonly available on BSD systems but
  not on others like GNU systems.
@@ -66,8 +69,11 @@ Description: utility functions from BSD systems - development files
 Package: libbsd0
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Pre-Depends:
+ ${misc:Pre-Depends},
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
 Conflicts: net-tools (<< 7.0-2) [kfreebsd-any]
 Description: utility functions from BSD systems - shared library
  This library provides some C functions such as strlcpy() that are commonly
@@ -80,7 +86,9 @@ Package: libbsd0-udeb
 Package-Type: udeb
 Section: debian-installer
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
 Description: utility functions from BSD systems - shared library
  This library provides some C functions such as strlcpy() that are commonly
  available on BSD systems but not on others like GNU systems.
