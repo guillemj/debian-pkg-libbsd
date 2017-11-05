@@ -3,6 +3,7 @@ libbsd (0.8.6-3) UNRELEASED; urgency=medium
   * Line-wrap remaining Conflicts field.
   * Now using Standards-Version 4.1.1 (no changes needed).
   * Switch to debian/watch format version 4.
+  * Set Rules-Requires-Root to no.
 
  -- Guillem Jover <guillem@debian.org>  Sun, 05 Nov 2017 15:09:03 +0100
 
