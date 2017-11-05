@@ -72,7 +72,8 @@ Pre-Depends:
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
-Conflicts: net-tools (<< 7.0-2) [kfreebsd-any]
+Conflicts:
+ net-tools (<< 7.0-2) [kfreebsd-any],
 Description: utility functions from BSD systems - shared library
  This library provides some C functions such as strlcpy() that are commonly
  available on BSD systems but not on others like GNU systems.

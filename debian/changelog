@@ -1,3 +1,9 @@
+libbsd (0.8.6-3) UNRELEASED; urgency=medium
+
+  * Line-wrap remaining Conflicts field.
+
+ -- Guillem Jover <guillem@debian.org>  Sun, 05 Nov 2017 15:09:03 +0100
+
 libbsd (0.8.6-2) unstable; urgency=medium
 
   * Line-wrap dependency fields.
