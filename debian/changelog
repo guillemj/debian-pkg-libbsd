@@ -4,6 +4,7 @@ libbsd (0.8.7-1) UNRELEASED; urgency=medium
     - Handle several functions now being provided by glibc.
     - Fix nlist(3) unit test on IA64. Closes: #881611
   * Now using Standards-Version 4.1.3 (no changes needed).
+  * Switch to debhelper compatibility level 11.
 
  -- Guillem Jover <guillem@debian.org>  Sat, 13 Jan 2018 16:39:15 +0100
 
