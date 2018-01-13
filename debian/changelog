@@ -1,3 +1,11 @@
+libbsd (0.8.7-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+    - Handle several functions now being provided by glibc.
+    - Fix nlist(3) unit test on IA64. Closes: #881611
+
+ -- Guillem Jover <guillem@debian.org>  Sat, 13 Jan 2018 16:39:15 +0100
+
 libbsd (0.8.6-3) unstable; urgency=medium
 
   * Line-wrap remaining Conflicts field.
