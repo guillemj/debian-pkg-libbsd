@@ -1,4 +1,4 @@
-libbsd (0.9.0-1) UNRELEASED; urgency=medium
+libbsd (0.9.0-1) unstable; urgency=medium
 
   * New upstream release.
     - Portability fixes for Sparc, OpenRISC, musl, uClibc, non-glibc in
@@ -17,7 +17,7 @@ libbsd (0.9.0-1) UNRELEASED; urgency=medium
     - The fgetwln() function has now been marked as deprecated.
   * Now using Standards-Version 4.1.4 (no changes needed).
 
- -- Guillem Jover <guillem@debian.org>  Mon, 21 May 2018 04:59:34 +0200
+ -- Guillem Jover <guillem@debian.org>  Mon, 21 May 2018 05:37:20 +0200
 
 libbsd (0.8.7-1) unstable; urgency=medium
 
