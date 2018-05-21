@@ -1,3 +1,23 @@
+libbsd (0.9.0-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+    - Portability fixes for Sparc, OpenRISC, musl, uClibc, non-glibc in
+      general and Windows.
+    - Add __arraycount() macro.
+    - Add flopenat() function.
+    - Add strtoi() and strtou() functions.
+    - Add several new vis and unvis functions.
+    - Add pidfile_fileno() function, and struct pidfh is now opaque.
+    - The humanize_number() now understands HN_IEC_PREFIXES.
+    - The fmtcheck() function supports all standard printf(3) conversions.
+    - The getentropy(), and thus arc4random() functions will not block
+      anymore on Linux on boot when there's not enough entropy available.
+      Closes: #898088
+    - The arc4random() function handles direct clone() calls better.
+    - The fgetwln() function has now been marked as deprecated.
+
+ -- Guillem Jover <guillem@debian.org>  Mon, 21 May 2018 04:59:34 +0200
+
 libbsd (0.8.7-1) unstable; urgency=medium
 
   * New upstream release.
