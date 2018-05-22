@@ -1,3 +1,15 @@
+libbsd (0.9.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+    - Fix ABI break coming from NetBSD vis/unvis module import. The OpenBSD
+      interface is now again the default, but it will emit warning, and users
+      should switch to the new NetBSD interface which will be the default in
+      0.10.0. Thanks to Sven Joachim <svenjoac@gmx.de> for the report.
+      Closes: #899282
+    - Fix COPYING file to adhere to the specified format.
+
+ -- Guillem Jover <guillem@debian.org>  Tue, 22 May 2018 16:26:14 +0200
+
 libbsd (0.9.0-1) unstable; urgency=medium
 
   * New upstream release.
