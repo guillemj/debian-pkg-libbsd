@@ -1,4 +1,5 @@
 libbsd.so.0 libbsd0 #MINVER#
+* Build-Depends-Package: libbsd-dev
  (symver)LIBBSD_0.0 0.0
  (symver)LIBBSD_0.1 0.1.0
  (symver)LIBBSD_0.2 0.2.0

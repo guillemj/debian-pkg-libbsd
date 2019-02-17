@@ -4,6 +4,7 @@ libbsd (0.9.1-2) UNRELEASED; urgency=medium
     contents from / to /usr.
   * Now using Standards-Version 4.3.0 (no changes needed).
   * Remove support for old debug symbol package migration.
+  * Add a Build-Depends-Package field to the symbols file.
 
  -- Guillem Jover <guillem@debian.org>  Sun, 17 Feb 2019 19:04:47 +0100
 
