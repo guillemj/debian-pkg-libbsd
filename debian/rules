@@ -65,8 +65,7 @@ install-arch: check-arch
 	dh_prep
 	dh_installdirs
 
-	$(MAKE) install DESTDIR=$(D)/tmp \
-	                runtimelibdir=/lib/$(DEB_HOST_MULTIARCH)
+	$(MAKE) install DESTDIR=$(D)/tmp
 
 binary-indep:
 # Nothing to do.
