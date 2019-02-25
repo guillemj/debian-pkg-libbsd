@@ -1,4 +1,4 @@
-libbsd (0.9.1-2) UNRELEASED; urgency=medium
+libbsd (0.9.1-2) unstable; urgency=medium
 
   * Perform a proper and correct /usr-merge transition by moving the package
     contents from / to /usr.
@@ -6,7 +6,7 @@ libbsd (0.9.1-2) UNRELEASED; urgency=medium
   * Remove support for old debug symbol package migration.
   * Add a Build-Depends-Package field to the symbols file.
 
- -- Guillem Jover <guillem@debian.org>  Sun, 17 Feb 2019 19:04:47 +0100
+ -- Guillem Jover <guillem@debian.org>  Mon, 25 Feb 2019 01:33:03 +0100
 
 libbsd (0.9.1-1) unstable; urgency=medium
 
