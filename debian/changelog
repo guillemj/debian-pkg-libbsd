@@ -13,6 +13,7 @@ libbsd (0.10.0-1) UNRELEASED; urgency=medium
     - Several man page fixes.
   * Switch to debhelper compatibility level 12.
   * Switch from debian/compat to debhelper-commpat in Build-Depends.
+  * Switch to Standards-Version 4.4.0 (no changes needed).
 
  -- Guillem Jover <guillem@debian.org>  Thu, 08 Aug 2019 21:48:15 +0200
 
