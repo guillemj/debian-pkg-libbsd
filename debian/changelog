@@ -1,3 +1,19 @@
+libbsd (0.10.0-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+    - Several security related fixes for nlist() reported by Daniel Hodson
+      and one by Coverity Scan.
+    - Fix for a leak in the vis family of functions.
+    - Fix for a configure check to not unnecessarily link against librt.
+    - General portability fixes for musl, uClibc, macOS and GNU/kFreeBSD.
+    - New architectures support for nlist().
+    - Switch the <err.h> *c() functions to be standalone and add err(),
+      warn(), errx() and warnx() familiy of functions in case the system
+      lacks them.
+    - Several man page fixes.
+
+ -- Guillem Jover <guillem@debian.org>  Thu, 08 Aug 2019 21:48:15 +0200
+
 libbsd (0.9.1-2) unstable; urgency=medium
 
   * Perform a proper and correct /usr-merge transition by moving the package
