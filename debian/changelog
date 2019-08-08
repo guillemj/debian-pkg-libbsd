@@ -11,6 +11,8 @@ libbsd (0.10.0-1) UNRELEASED; urgency=medium
       warn(), errx() and warnx() familiy of functions in case the system
       lacks them.
     - Several man page fixes.
+  * Switch to debhelper compatibility level 12.
+  * Switch from debian/compat to debhelper-commpat in Build-Depends.
 
  -- Guillem Jover <guillem@debian.org>  Thu, 08 Aug 2019 21:48:15 +0200
 
