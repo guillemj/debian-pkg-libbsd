@@ -1,4 +1,4 @@
-libbsd (0.10.0-1) UNRELEASED; urgency=medium
+libbsd (0.10.0-1) unstable; urgency=medium
 
   * New upstream release.
     - Several security related fixes for nlist() reported by Daniel Hodson
@@ -15,7 +15,7 @@ libbsd (0.10.0-1) UNRELEASED; urgency=medium
   * Switch from debian/compat to debhelper-commpat in Build-Depends.
   * Switch to Standards-Version 4.4.0 (no changes needed).
 
- -- Guillem Jover <guillem@debian.org>  Thu, 08 Aug 2019 21:48:15 +0200
+ -- Guillem Jover <guillem@debian.org>  Thu, 08 Aug 2019 21:57:41 +0200
 
 libbsd (0.9.1-2) unstable; urgency=medium
 
