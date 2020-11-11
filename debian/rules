@@ -14,9 +14,6 @@ else
 	confflags += --build=$(DEB_BUILD_GNU_TYPE) --host=$(DEB_HOST_GNU_TYPE)
 endif
 
-lib := libbsd0
-libdbg := $(lib)-dbg
-libudeb := $(lib)-udeb
 libdev := libbsd-dev
 
 D := $(CURDIR)/debian
@@ -82,7 +79,7 @@ binary-arch: install-arch
 	dh_strip
 	dh_compress
 	dh_fixperms
-	dh_makeshlibs --add-udeb=$(libudeb)
+	dh_makeshlibs
 	dh_installdeb
 	dh_shlibdeps
 	dh_gencontrol
