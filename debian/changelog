@@ -3,6 +3,8 @@ libbsd (0.10.0-2) UNRELEASED; urgency=medium
   * Switch to Standards-Version 4.5.1 (no changes needed).
   * Switch to debhelper compatibility level 13.
     - Stop passing --add-udeb to dh_makeshlibs, now handled automatically.
+    - Stop passing ChangeLog to dh_installchangelogs, now handled
+      automatically.
 
  -- Guillem Jover <guillem@debian.org>  Wed, 11 Nov 2020 02:31:27 +0100
 
