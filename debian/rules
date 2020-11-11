@@ -14,8 +14,6 @@ else
 	confflags += --build=$(DEB_BUILD_GNU_TYPE) --host=$(DEB_HOST_GNU_TYPE)
 endif
 
-libdev := libbsd-dev
-
 D := $(CURDIR)/debian
 
 config.status: configure
