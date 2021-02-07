@@ -2,6 +2,7 @@ libbsd.so.0 libbsd0 #MINVER#
 * Build-Depends-Package: libbsd-dev
  LIBBSD_0.0@LIBBSD_0.0 0.0
  LIBBSD_0.10.0@LIBBSD_0.10.0 0.10.0
+ LIBBSD_0.11.0@LIBBSD_0.11.0 0.11.0
  LIBBSD_0.1@LIBBSD_0.1 0.1.0
  LIBBSD_0.2@LIBBSD_0.2 0.2.0
  LIBBSD_0.3@LIBBSD_0.3 0.3.0
@@ -48,11 +49,14 @@ libbsd.so.0 libbsd0 #MINVER#
  fmtcheck@LIBBSD_0.0 0.0
  fparseln@LIBBSD_0.5 0.5.0
  fpurge@LIBBSD_0.3 0.3.0
+ freezero@LIBBSD_0.11.0 0.11.0
  (arch=gnu-any-any)funopen@LIBBSD_0.7 0.7.0
  getbsize@LIBBSD_0.7 0.7.0
  getmode@LIBBSD_0.0 0.0
  getpeereid@LIBBSD_0.3 0.3.0
  getprogname@LIBBSD_0.0 0.0
+ gid_from_group@LIBBSD_0.11.0 0.11.0
+ group_from_gid@LIBBSD_0.11.0 0.11.0
  heapsort@LIBBSD_0.0 0.0
  humanize_number@LIBBSD_0.0 0.0
  inet_net_pton@LIBBSD_0.0 0.0
@@ -69,6 +73,7 @@ libbsd.so.0 libbsd0 #MINVER#
  readpassphrase@LIBBSD_0.2 0.2.0
  reallocarray@LIBBSD_0.7 0.7.0
  reallocf@LIBBSD_0.3 0.3.0
+ recallocarray@LIBBSD_0.11.0 0.11.0
  setmode@LIBBSD_0.0 0.0
  setproctitle@LIBBSD_0.2 0.2.0
  setproctitle@LIBBSD_0.5 0.5.0
@@ -93,6 +98,7 @@ libbsd.so.0 libbsd0 #MINVER#
  strnvis@LIBBSD_0.2 0.2.0
  strnvis@LIBBSD_0.9.1 0.9.1
  strnvis_netbsd@LIBBSD_0.9.1 0.9.1
+ strnvisx@LIBBSD_0.11.0 0.11.0
  strsenvisx@LIBBSD_0.9 0.9.0
  strsnvis@LIBBSD_0.9 0.9.0
  strsnvisx@LIBBSD_0.9 0.9.0
@@ -106,7 +112,9 @@ libbsd.so.0 libbsd0 #MINVER#
  strvis@LIBBSD_0.0 0.0
  strvisx@LIBBSD_0.0 0.0
  svis@LIBBSD_0.9 0.9.0
+ uid_from_user@LIBBSD_0.11.0 0.11.0
  unvis@LIBBSD_0.0 0.0
+ user_from_uid@LIBBSD_0.11.0 0.11.0
  verrc@LIBBSD_0.0 0.0
  vis@LIBBSD_0.0 0.0
  vwarnc@LIBBSD_0.0 0.0

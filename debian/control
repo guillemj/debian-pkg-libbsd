@@ -9,6 +9,7 @@ Standards-Version: 4.5.1
 Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
+ libmd-dev,
 # Consider readding the following once and if it moves out of non-free.
 # libtestu01-0-dev <!nocheck>,
 
@@ -18,6 +19,7 @@ Architecture: any
 Multi-Arch: same
 Depends:
  libbsd0 (= ${binary:Version}),
+ libmd-dev,
  ${misc:Depends},
 Replaces:
  libfreebsd-dev (<< 0.0-8),
@@ -45,25 +47,28 @@ Description: utility functions from BSD systems - development files
   * errc, verrc, vwarnc, warnc.
   * fmtcheck.
   * fgetln, fparseln, fgetwln, flopen, flopenat, fpurge, funopen.
+  * freezero.
   * getbsize.
   * getmode, setmode, strmode,
   * getpeereid.
   * getprogname, setprogname.
+  * gid_from_group, group_from_gid.
   * heapsort, radixsort, mergesort, sradixsort.
   * nlist (ELF and a.out support).
   * pidfile_open, ppidfile_filen, oidfile_write, pidfile_close, pidfile_remove.
   * readpassphrase.
-  * reallocarray, reallocf.
+  * reallocarray, reallocf, recallocarray.
   * setproctitle (initialized via libbsd-ctor or setproctitle_init).
   * sl_init, sl_add, sl_free, sl_find.
   * strlcpy, strlcat.
   * strnstr.
-  * nvis, snvis, stravis, strenvisx, strnunvis, strnunvisx, strnvis,
+  * nvis, snvis, stravis, strenvisx, strnunvis, strnunvisx, strnvis, strnvisx,
     strsenvisx, strsnvis, strsnvisx, strsvis, strsvisx, strunvis, strunvisx,
     strvis, strvisx, svis, unvis, vis.
   * strtoi, strtonum, strtou.
   * timeradd, timersub, timerclear, timerisset, timercmp.
   * timespecadd, timespecsub, timespecclear, timespecisset, timespeccmp.
+  * uid_from_user, user_from_uid.
   * wcslcat, wcslcpy.
  .
  Also included are some queue macro definitions not present on includes
