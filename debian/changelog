@@ -1,4 +1,4 @@
-libbsd (0.11.2-1) UNRELEASED; urgency=medium
+libbsd (0.11.2-1) unstable; urgency=medium
 
   * New upstream release.
     - Update <sys/queue.h> from FreeBSD.
@@ -9,7 +9,7 @@ libbsd (0.11.2-1) UNRELEASED; urgency=medium
     so that we get the expected .la dependencies in place, before we build
     the unit tests against the system library.
 
- -- Guillem Jover <guillem@debian.org>  Mon, 08 Feb 2021 04:04:37 +0100
+ -- Guillem Jover <guillem@debian.org>  Mon, 08 Feb 2021 04:11:00 +0100
 
 libbsd (0.11.1-1) unstable; urgency=medium
 
