@@ -24,4 +24,5 @@ CFLAGS=$($PKG_CONFIG --cflags libbsd)
 LDADD=$($PKG_CONFIG --libs libbsd)
 
 ./configure $confflags
+make
 make -C test CFLAGS="$CFLAGS" LDADD="$LDADD" check

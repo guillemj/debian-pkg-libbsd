@@ -5,6 +5,9 @@ libbsd (0.11.2-1) UNRELEASED; urgency=medium
     - Import some closefrom() changes from sudo.
     - Make closefrom() use close_range() syscall on Linux when available.
     - Update libbsd(7) man page with updates in 0.11.0.
+  * When running the autopkgtest test suite, first build the local library
+    so that we get the expected .la dependencies in place, before we build
+    the unit tests against the system library.
 
  -- Guillem Jover <guillem@debian.org>  Mon, 08 Feb 2021 04:04:37 +0100
 
