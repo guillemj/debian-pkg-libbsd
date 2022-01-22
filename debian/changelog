@@ -1,3 +1,15 @@
+libbsd (0.11.4-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+    - Fix build on GNU/kFreeBSD due to missing linking against libmd.
+      Closes: #992861
+    - Fix build with LTO.
+    - Various build system fixes.
+    - Various portability fixes.
+    - Various documentation fixes.
+
+ -- Guillem Jover <guillem@debian.org>  Sat, 22 Jan 2022 22:44:51 +0100
+
 libbsd (0.11.3-1) unstable; urgency=medium
 
   * New upstream release.
