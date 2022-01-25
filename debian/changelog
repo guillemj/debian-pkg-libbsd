@@ -1,10 +1,10 @@
-libbsd (0.11.5-1) UNRELEASED; urgency=medium
+libbsd (0.11.5-1) unstable; urgency=medium
 
   * New upstream release.
     - Build system and test suite regression fixes.
     - Documentation on how to build the project.
 
- -- Guillem Jover <guillem@debian.org>  Tue, 25 Jan 2022 01:57:14 +0100
+ -- Guillem Jover <guillem@debian.org>  Tue, 25 Jan 2022 01:58:33 +0100
 
 libbsd (0.11.4-1) unstable; urgency=medium
 
