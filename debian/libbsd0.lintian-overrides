@@ -1,0 +1,2 @@
+# The library provides APIs that do exit.
+libbsd0: exit-in-shared-library [usr/lib/*/libbsd.so.*]
