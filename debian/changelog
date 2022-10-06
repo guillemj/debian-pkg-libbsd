@@ -1,5 +1,14 @@
-libbsd (0.11.6-2) UNRELEASED; urgency=medium
+libbsd (0.11.7-1) UNRELEASED; urgency=medium
 
+  * New upstream release.
+    - Portability fixes for the Hurd.
+    - Fix ELF support for big endian SH.
+    - Sync the arc4random(3) implementation from OpenBSD.
+    - Adjust declaration shadowing to match new glibc additions.
+    - Manual pages and documentation cleanups.
+    - Manual page rewrite to get rid of a BSD-4-Clause license.
+    - Document non-overlay mode as discouraged, future releases might emit
+      warnings when using it.
   * Remove debian/copyright pattern for «src/arc4random_openbsd.h», removed
     upstream.
   * Switch to Standards-Version 4.6.1 (no changes needed).
