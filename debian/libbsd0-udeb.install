@@ -1,1 +1,2 @@
-usr/lib/*/*.so.*
+usr/lib/*/libbsd.so.0
+usr/lib/*/libbsd.so.0.*
