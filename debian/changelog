@@ -1,4 +1,4 @@
-libbsd (0.11.7-2) UNRELEASED; urgency=medium
+libbsd (0.11.7-2) unstable; urgency=medium
 
   * Change License name to match newly introduced SPDX name.
   * Switch to Standards-Version 4.6.2 (no changes needed).
@@ -7,7 +7,7 @@ libbsd (0.11.7-2) UNRELEASED; urgency=medium
   * Switch from hardening=+bindnow to hardening=+all.
   * Remove unused spelling-error-in-binary lintian override for shared library.
 
- -- Guillem Jover <guillem@debian.org>  Thu, 10 Nov 2022 23:43:35 +0100
+ -- Guillem Jover <guillem@debian.org>  Sun, 29 Jan 2023 19:26:48 +0100
 
 libbsd (0.11.7-1) unstable; urgency=medium
 
