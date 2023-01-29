@@ -5,6 +5,7 @@ libbsd (0.11.7-2) UNRELEASED; urgency=medium
   * Do not trim debian/changelog.
   * Make globs in debhelper fragment files more specific.
   * Switch from hardening=+bindnow to hardening=+all.
+  * Remove unused spelling-error-in-binary lintian override for shared library.
 
  -- Guillem Jover <guillem@debian.org>  Thu, 10 Nov 2022 23:43:35 +0100
 
