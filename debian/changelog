@@ -1,4 +1,4 @@
-libbsd (0.11.7-3) UNRELEASED; urgency=medium
+libbsd (0.11.7-3) unstable; urgency=medium
 
   * Cherry-pick patches from upstream:
     - build: Use «yes» instead of «true» for AC_CHECK_FUNCS cache value.
@@ -6,7 +6,7 @@ libbsd (0.11.7-3) UNRELEASED; urgency=medium
     - include: Adjust closefrom() per glibc adoption.
     - man: Update STANDARDS and HISTORY sections.
 
- -- Guillem Jover <guillem@debian.org>  Fri, 03 Mar 2023 01:08:52 +0100
+ -- Guillem Jover <guillem@debian.org>  Fri, 03 Mar 2023 01:10:10 +0100
 
 libbsd (0.11.7-2) unstable; urgency=medium
 
