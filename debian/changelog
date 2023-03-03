@@ -1,3 +1,13 @@
+libbsd (0.11.7-3) UNRELEASED; urgency=medium
+
+  * Cherry-pick patches from upstream:
+    - build: Use «yes» instead of «true» for AC_CHECK_FUNCS cache value.
+    - funopen: Replace off64_t with off_t in funopen_seek().
+    - include: Adjust closefrom() per glibc adoption.
+    - man: Update STANDARDS and HISTORY sections.
+
+ -- Guillem Jover <guillem@debian.org>  Fri, 03 Mar 2023 01:08:52 +0100
+
 libbsd (0.11.7-2) unstable; urgency=medium
 
   * Change License name to match newly introduced SPDX name.
