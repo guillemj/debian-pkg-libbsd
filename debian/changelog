@@ -1,9 +1,9 @@
-libbsd (0.11.7-4) UNRELEASED; urgency=medium
+libbsd (0.11.7-4) unstable; urgency=medium
 
   * Add missing autoconf and automake to autopkgtests needed due to the
     cherry-picked patches from upstream.
 
- -- Guillem Jover <guillem@debian.org>  Sun, 05 Mar 2023 17:36:26 +0100
+ -- Guillem Jover <guillem@debian.org>  Sun, 05 Mar 2023 17:38:42 +0100
 
 libbsd (0.11.7-3) unstable; urgency=medium
 
