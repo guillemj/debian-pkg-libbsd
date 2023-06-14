@@ -1,3 +1,9 @@
+libbsd (0.11.7-5) UNRELEASED; urgency=medium
+
+  * Switch autopkgtest dependency from pkg-config to pkgconf.
+
+ -- Guillem Jover <guillem@debian.org>  Wed, 14 Jun 2023 23:57:01 +0200
+
 libbsd (0.11.7-4) unstable; urgency=medium
 
   * Add missing autoconf and automake to autopkgtests needed due to the
