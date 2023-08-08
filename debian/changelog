@@ -1,6 +1,7 @@
 libbsd (0.11.7-5) UNRELEASED; urgency=medium
 
   * Switch autopkgtest dependency from pkg-config to pkgconf.
+  * Wrap fields in debian/tests/control.
 
  -- Guillem Jover <guillem@debian.org>  Wed, 14 Jun 2023 23:57:01 +0200
 
