@@ -1,5 +1,13 @@
-libbsd (0.11.7-5) UNRELEASED; urgency=medium
+libbsd (0.11.8-1) UNRELEASED; urgency=medium
 
+  * New upstream release.
+    - Portability fixes for Solaris, macOS and AIX.
+    - Build fixes for the modern C effort.
+    - Adjust declaration shadowing to match new glibc additions.
+    - Manual page sync to get rid of the last BSD-4-Clause license.
+    - Manual pages, documentation and build system cleanups.
+  * Update copyright file, all BSD-4-Clause manual pages have been replaced.
+  * Remove upstream patches.
   * Switch autopkgtest dependency from pkg-config to pkgconf.
   * Wrap fields in debian/tests/control.
 
