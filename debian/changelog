@@ -1,3 +1,15 @@
+libbsd (0.12.0-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+    - Support for Solaris, macOS and AIX (now build and pass tests).
+    - Improve ABI selection handling for a more controlled ports ABI.
+    - Sync strtoi()/strtou() implementations from NetBSD to get the new
+      error handling behavior.
+    - Add explicit time32 and time64 support.
+    - Manual pages, documentation and build system cleanups.
+
+ -- Guillem Jover <guillem@debian.org>  Tue, 27 Feb 2024 06:01:51 +0100
+
 libbsd (0.11.8-1) unstable; urgency=medium
 
   * New upstream release.
