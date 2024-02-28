@@ -2,6 +2,8 @@ libbsd (0.12.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
     - Fix missing installation of err.h. Closes: #1064909
+  * Install the headers under a multiarch-qualified directory,
+    as they now diverge per arch.
 
  -- Guillem Jover <guillem@debian.org>  Wed, 28 Feb 2024 05:13:52 +0100
 
