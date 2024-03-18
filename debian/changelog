@@ -1,4 +1,4 @@
-libbsd (0.12.2-1) UNRELEASED; urgency=medium
+libbsd (0.12.2-1) unstable; urgency=medium
 
   * New upstream release.
     - Fix build on GNU/Hurd.
@@ -7,7 +7,7 @@ libbsd (0.12.2-1) UNRELEASED; urgency=medium
     - Add missing manual page links for errc module. Closes: #1065833
     - Fix build system and test issues.
 
- -- Guillem Jover <guillem@debian.org>  Mon, 18 Mar 2024 03:55:12 +0100
+ -- Guillem Jover <guillem@debian.org>  Mon, 18 Mar 2024 03:59:39 +0100
 
 libbsd (0.12.1-1) unstable; urgency=medium
 
