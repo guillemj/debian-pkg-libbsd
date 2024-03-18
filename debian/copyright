@@ -175,7 +175,6 @@ Files:
  man/fmtcheck.3bsd
  man/humanize_number.3bsd
  man/stringlist.3bsd
- man/timeval.3bsd
  src/fmtcheck.c
  src/humanize_number.c
  src/stringlist.c
